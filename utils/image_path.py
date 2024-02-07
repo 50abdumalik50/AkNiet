@@ -6,6 +6,6 @@ def upload_avatar_for_user(instance, filename):
 
 
 def upload_products(instance, filename):
-    # return f"/products/{instance.product.title}/{filename}"
-
     return f"/products/{instance.product.title}/{filename}"
+
+    # return f"/products/{instance.product.title}/{filename}"
